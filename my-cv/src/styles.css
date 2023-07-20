@@ -22,8 +22,13 @@ h3{
     width: 750px;
     border: #BAAB3F solid 1px;
     margin: 5px;
+    margin-bottom: 20px;
 }
 
 .section-title{
     margin: 5px;
+}
+
+.text{
+    padding-left: 200px;
 }
