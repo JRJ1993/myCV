@@ -1,0 +1,12 @@
+.list-items{
+    margin: 5px;
+}
+
+.list-container{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
