@@ -16,6 +16,7 @@ export class SkillsComponent {
     'MongoDB',
     'Postman',
     'mySQL',
-    'Redux.js'
+    'Redux.js',
+    'Angular.js'
   ]
 }
