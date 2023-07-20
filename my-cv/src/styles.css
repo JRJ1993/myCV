@@ -17,3 +17,13 @@ h3{
 .primary{
     color: #BAAB3F;
 }
+
+.underline{
+    width: 750px;
+    border: #BAAB3F solid 1px;
+    margin: 5px;
+}
+
+.section-title{
+    margin: 5px;
+}
