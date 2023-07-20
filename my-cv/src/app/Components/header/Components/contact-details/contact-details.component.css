@@ -1,0 +1,11 @@
+.contact-item{
+    margin:5px
+}
+
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 120px;
+}
