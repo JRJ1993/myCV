@@ -1,0 +1,16 @@
+<div class="job-container">
+    <p>{{jobDetails.duration}}</p>
+    <div class="job-title">
+        <p class="primary" >{{jobDetails.companyName | uppercase}}</p>
+        <p>{{jobDetails.jobTitle | uppercase}}</p>
+    </div>
+    <button (click)="onClick()" class="btn extend-experience-btn">^</button>
+
+</div>
+<div class="{{isOpen?'':'hide-display'}}">
+    <ul class="text">
+        <li *ngFor="let bulletPoint of jobDetails.bulletPoints">
+            <p>{{bulletPoint}}</p>
+        </li>
+    </ul>
+</div>

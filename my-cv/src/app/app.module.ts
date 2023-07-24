@@ -9,6 +9,7 @@ import { MainHeaderComponent } from './Components/Header/Components/main-header/
 import { SummaryComponent } from './Components/summary/summary.component';
 import { SkillsComponent } from './Components/skills/skills.component';
 import { ExperienceComponent } from './Components/experience/experience.component';
+import { JobComponent } from './Components/experience/components/job/job.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ExperienceComponent } from './Components/experience/experience.componen
     MainHeaderComponent,
     SummaryComponent,
     SkillsComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,

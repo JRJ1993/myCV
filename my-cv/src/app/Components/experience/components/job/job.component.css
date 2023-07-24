@@ -1,0 +1,15 @@
+.job-container{
+    display: flex;
+}
+
+.job-title{
+    margin-left: 130px;
+}
+
+.extend-experience-btn{
+    margin-left: auto;
+}
+
+.hide-display{
+    display: none;
+}
