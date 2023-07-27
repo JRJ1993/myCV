@@ -1,24 +1,8 @@
-.job-container{
+.company-title-container{
     display: flex;
-    margin-bottom: 20px;
+    flex-direction: column;
 }
 
-.job-title{
-    margin-left: 130px;
-}
-
-.extend-experience-btn{
-    margin-left: auto;
-    transform:rotate(180deg);
-}
-
-.active-experience-btn{
-    margin-left: auto;
-    transform: none;
-    background-color: #BAAB3F;
-}
-
-.hide-display{
-    display: none;
-    transition: height 2s ease-in-out;
+.company-title{
+    align-self: flex-end;
 }

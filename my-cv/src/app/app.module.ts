@@ -11,6 +11,7 @@ import { SkillsComponent } from './Components/skills/skills.component';
 import { ExperienceComponent } from './Components/experience/experience.component';
 import { JobComponent } from './Components/experience/components/job/job.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { IgxAccordionModule } from 'igniteui-angular';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    IgxAccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
