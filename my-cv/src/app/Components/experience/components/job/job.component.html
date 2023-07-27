@@ -1,23 +1,23 @@
-<div class="job-container">
-    <p>{{jobDetails.duration}}</p>
-    <div class="job-title">
-        <p 
-            class="primary" >
-            {{jobDetails.companyName | uppercase}}
-        </p>
-        <p>{{jobDetails.jobTitle | uppercase}}</p>
-    </div>
-    <button 
-        (click)="onClick()" 
-        class="{{isOpen?'active-experience-btn btn':'btn extend-experience-btn'}}">
-        ^
-    </button>
-
-</div>
-<div class="{{isOpen?'':'hide-display'}}">
-    <ul class="text">
-        <li *ngFor="let bulletPoint of jobDetails.bulletPoints">
-            <p>{{bulletPoint}}</p>
-        </li>
-    </ul>
-</div>
+<igx-accordion>
+    <igx-expansion-panel>
+        <igx-expansion-panel-header [iconPosition]="'right'">
+            <igx-expansion-panel-title>
+                <p>{{jobDetails.duration}}</p>
+            </igx-expansion-panel-title>
+            <div class="company-title-container">
+                <p 
+                    class="primary company-title" >
+                    {{jobDetails.companyName | uppercase}}
+                </p>
+                <p class="company-title">{{jobDetails.jobTitle | uppercase}}</p>
+            </div>
+        </igx-expansion-panel-header>
+        <igx-expansion-panel-body>
+            <ul>
+                <li *ngFor="let bulletPoint of jobDetails.bulletPoints">
+                    <p>{{bulletPoint}}</p>
+                </li>
+            </ul>
+        </igx-expansion-panel-body>
+    </igx-expansion-panel>
+</igx-accordion>
