@@ -10,6 +10,7 @@ import { SummaryComponent } from './Components/summary/summary.component';
 import { SkillsComponent } from './Components/skills/skills.component';
 import { ExperienceComponent } from './Components/experience/experience.component';
 import { JobComponent } from './Components/experience/components/job/job.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -24,9 +25,11 @@ import { JobComponent } from './Components/experience/components/job/job.compone
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
