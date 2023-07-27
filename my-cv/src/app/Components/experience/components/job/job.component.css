@@ -6,3 +6,7 @@
 .company-title{
     align-self: flex-end;
 }
+
+.job-details{
+    margin-top: 15px !important;
+}
