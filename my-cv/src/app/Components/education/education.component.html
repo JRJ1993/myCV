@@ -1,1 +1,18 @@
-<p>education works!</p>
+<h3 class="primary section-title">{{title | uppercase}}</h3>
+<div class="underline primary"></div>
+<app-education-type 
+    [date]="northcoders.date"
+    [school]="northcoders.school"
+    [course]="northcoders.course"
+>
+</app-education-type>
+<app-education-type 
+    [date]="portsmouthUni.date"
+    [school]="portsmouthUni.school"
+>
+</app-education-type>
+<app-education-type
+    [date]="plymstockSchool.date"
+    [school]="plymstockSchool.school"
+>
+</app-education-type>

@@ -1,0 +1,25 @@
+<igx-accordion>
+    <igx-expansion-panel>
+        <igx-expansion-panel-header [iconPosition]="'right'">
+            <igx-expansion-panel-title>
+                <p>{{date}}</p>
+            </igx-expansion-panel-title>
+            <p 
+            class="primary company-title" >
+            {{school | uppercase}}
+        </p>
+        </igx-expansion-panel-header>
+        <igx-expansion-panel-body>
+            <div style="display: {{school==='Northcoders'?'':'none'}}">
+                <app-northcoders [course]="course"></app-northcoders>
+            </div>
+            <div style="display: {{school==='Portsmouth University'?'':'none'}};">
+                 <app-portsmouth-uni></app-portsmouth-uni>
+            </div>
+            <div style="display: {{school==='Plymstock Secondary School'?'':'none'}};">
+                <app-plymstock-school></app-plymstock-school>
+            </div>
+
+        </igx-expansion-panel-body>
+    </igx-expansion-panel>
+</igx-accordion>

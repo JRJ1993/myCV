@@ -13,6 +13,10 @@ import { JobComponent } from './Components/experience/components/job/job.compone
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IgxAccordionModule } from 'igniteui-angular';
 import { EducationComponent } from './Components/education/education.component';
+import { EducationTypeComponent } from './Components/education/Components/education-type/education-type.component';
+import { NorthcodersComponent } from './Components/education/Components/education-type/Components/northcoders/northcoders.component';
+import { PortsmouthUniComponent } from './Components/education/Components/education-type/Components/portsmouth-uni/portsmouth-uni.component';
+import { PlymstockSchoolComponent } from './Components/education/Components/education-type/Components/plymstock-school/plymstock-school.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { EducationComponent } from './Components/education/education.component';
     SkillsComponent,
     ExperienceComponent,
     JobComponent,
-    EducationComponent
+    EducationComponent,
+    EducationTypeComponent,
+    NorthcodersComponent,
+    PortsmouthUniComponent,
+    PlymstockSchoolComponent
   ],
   imports: [
     BrowserModule,
