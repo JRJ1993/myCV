@@ -1,0 +1,12 @@
+.company-title-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.company-title{
+    align-self: flex-end;
+}
+
+.job-details{
+    margin-top: 15px !important;
+}

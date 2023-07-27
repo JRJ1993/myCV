@@ -1,0 +1,23 @@
+<igx-accordion>
+    <igx-expansion-panel>
+        <igx-expansion-panel-header [iconPosition]="'right'">
+            <igx-expansion-panel-title>
+                <p>{{jobDetails.duration}}</p>
+            </igx-expansion-panel-title>
+            <div class="company-title-container">
+                <p 
+                    class="primary company-title" >
+                    {{jobDetails.companyName | uppercase}}
+                </p>
+                <p class="company-title">{{jobDetails.jobTitle | uppercase}}</p>
+            </div>
+        </igx-expansion-panel-header>
+        <igx-expansion-panel-body>
+            <ul>
+                <li class="job-details" *ngFor="let bulletPoint of jobDetails.bulletPoints">
+                    <p>{{bulletPoint}}</p>
+                </li>
+            </ul>
+        </igx-expansion-panel-body>
+    </igx-expansion-panel>
+</igx-accordion>

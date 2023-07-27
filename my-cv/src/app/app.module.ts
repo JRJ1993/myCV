@@ -8,6 +8,10 @@ import { ContactDetailsComponent } from './Components/Header/Components/contact-
 import { MainHeaderComponent } from './Components/Header/Components/main-header/main-header.component';
 import { SummaryComponent } from './Components/summary/summary.component';
 import { SkillsComponent } from './Components/skills/skills.component';
+import { ExperienceComponent } from './Components/experience/experience.component';
+import { JobComponent } from './Components/experience/components/job/job.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { IgxAccordionModule } from 'igniteui-angular';
 
 @NgModule({
   declarations: [
@@ -16,13 +20,18 @@ import { SkillsComponent } from './Components/skills/skills.component';
     ContactDetailsComponent,
     MainHeaderComponent,
     SummaryComponent,
-    SkillsComponent
+    SkillsComponent,
+    ExperienceComponent,
+    JobComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    IgxAccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
