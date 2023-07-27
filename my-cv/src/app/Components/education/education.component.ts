@@ -25,7 +25,6 @@ export class EducationComponent {
       'Statistics',
       'Intermediate Calculus'
     ],
-    level:''
   }
   plymstockSchool = {
     date:'2004-2012',

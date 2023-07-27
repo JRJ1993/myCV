@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-plymstock-school',
@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./plymstock-school.component.css']
 })
 export class PlymstockSchoolComponent {
-
 }

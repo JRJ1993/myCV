@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component,Input } from '@angular/core';
 
 @Component({
   selector: 'app-portsmouth-uni',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./portsmouth-uni.component.css']
 })
 export class PortsmouthUniComponent {
-
+  @Input() course: any;
+  @Input() grade: any;
+  @Input() modules: any;
 }

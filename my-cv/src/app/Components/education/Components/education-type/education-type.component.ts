@@ -9,5 +9,8 @@ export class EducationTypeComponent {
   @Input() date: any;
   @Input() school: any;
   @Input() course: any;
+  @Input() grade: any;
+  @Input() modules: any;
+  @Input() subjects: any;
 
 }

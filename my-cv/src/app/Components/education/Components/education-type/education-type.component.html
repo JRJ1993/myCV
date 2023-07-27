@@ -11,10 +11,17 @@
         </igx-expansion-panel-header>
         <igx-expansion-panel-body>
             <div style="display: {{school==='Northcoders'?'':'none'}}">
-                <app-northcoders [course]="course"></app-northcoders>
+                <app-northcoders 
+                    [course]="course"
+                ></app-northcoders>
             </div>
             <div style="display: {{school==='Portsmouth University'?'':'none'}};">
-                 <app-portsmouth-uni></app-portsmouth-uni>
+                 <app-portsmouth-uni
+                 [course]="course"
+                 [grade]="grade"
+                 [modules]="modules"
+                 >
+                </app-portsmouth-uni>
             </div>
             <div style="display: {{school==='Plymstock Secondary School'?'':'none'}};">
                 <app-plymstock-school></app-plymstock-school>
