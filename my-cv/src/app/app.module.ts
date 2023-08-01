@@ -19,6 +19,7 @@ import { PortsmouthUniComponent } from './Components/education/Components/educat
 import { PlymstockSchoolComponent } from './Components/education/Components/education-type/Components/plymstock-school/plymstock-school.component';
 import { HobbiesComponent } from './Components/hobbies/hobbies.component';
 import { AdditionalInformationComponent } from './Components/additional-information/additional-information.component';
+import { ReferencesComponent } from './Components/references/references.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { AdditionalInformationComponent } from './Components/additional-informat
     PortsmouthUniComponent,
     PlymstockSchoolComponent,
     HobbiesComponent,
-    AdditionalInformationComponent
+    AdditionalInformationComponent,
+    ReferencesComponent
   ],
   imports: [
     BrowserModule,
