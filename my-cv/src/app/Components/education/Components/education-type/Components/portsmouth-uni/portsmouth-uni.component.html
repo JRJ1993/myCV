@@ -1,3 +1,8 @@
 <p>{{course}}</p>
 <p>{{grade}}</p>
-<p>{{modules}}</p>
+<div class="uni-module-container">
+    <p class="uni-text">Optional Course Modules:</p>
+    <ul *ngFor="let module of modules">
+        <li class="uni-text-list"><p>{{module}}</p></li>
+    </ul>
+</div>
