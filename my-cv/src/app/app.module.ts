@@ -17,6 +17,7 @@ import { EducationTypeComponent } from './Components/education/Components/educat
 import { NorthcodersComponent } from './Components/education/Components/education-type/Components/northcoders/northcoders.component';
 import { PortsmouthUniComponent } from './Components/education/Components/education-type/Components/portsmouth-uni/portsmouth-uni.component';
 import { PlymstockSchoolComponent } from './Components/education/Components/education-type/Components/plymstock-school/plymstock-school.component';
+import { HobbiesComponent } from './Components/hobbies/hobbies.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { PlymstockSchoolComponent } from './Components/education/Components/educ
     EducationTypeComponent,
     NorthcodersComponent,
     PortsmouthUniComponent,
-    PlymstockSchoolComponent
+    PlymstockSchoolComponent,
+    HobbiesComponent
   ],
   imports: [
     BrowserModule,
