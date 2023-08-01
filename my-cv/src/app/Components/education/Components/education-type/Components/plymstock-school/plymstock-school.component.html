@@ -1,0 +1,59 @@
+<igx-accordion>
+    <igx-expansion-panel>
+        <igx-expansion-panel-header [iconPosition]="'right'">
+            <igx-expansion-panel-title>
+                <p>A-Levels</p>
+            </igx-expansion-panel-title>
+        </igx-expansion-panel-header>
+        <igx-expansion-panel-body>
+            <ul>
+                <li *ngFor="let subject of subjects?.ALevels">
+                    <div class="subject-container">
+                        <p>{{subject?.subject}}</p>
+                        <p>{{subject?.grade}}</p>
+                    </div>
+                </li>
+            </ul>
+        </igx-expansion-panel-body>
+    </igx-expansion-panel>
+</igx-accordion>
+
+<igx-accordion>
+    <igx-expansion-panel>
+        <igx-expansion-panel-header [iconPosition]="'right'">
+            <igx-expansion-panel-title>
+                <p>AS-Levels</p>
+            </igx-expansion-panel-title>
+        </igx-expansion-panel-header>
+        <igx-expansion-panel-body>
+            <ul>
+                <li *ngFor="let subject of subjects?.ASLevels">
+                    <div class="subject-container">
+                        <p>{{subject?.subject}}</p>
+                        <p>{{subject?.grade}}</p>
+                    </div>
+                </li>
+            </ul>
+        </igx-expansion-panel-body>
+    </igx-expansion-panel>
+</igx-accordion>
+
+<igx-accordion>
+    <igx-expansion-panel>
+        <igx-expansion-panel-header [iconPosition]="'right'">
+            <igx-expansion-panel-title>
+                <p>GCSEs</p>
+            </igx-expansion-panel-title>
+        </igx-expansion-panel-header>
+        <igx-expansion-panel-body>
+            <ul>
+                <li *ngFor="let subject of subjects?.GCSEs">
+                    <div class="subject-container">
+                        <p>{{subject?.subject}}</p>
+                        <p>{{subject?.grade}}</p>
+                    </div>
+                </li>
+            </ul>
+        </igx-expansion-panel-body>
+    </igx-expansion-panel>
+</igx-accordion>
