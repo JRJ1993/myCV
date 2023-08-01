@@ -1,0 +1,12 @@
+<h3 class="primary section-title">{{title | uppercase}}</h3>
+<div class="underline primary"></div>
+<ul *ngFor="let reference of references">
+    <li>
+        <div class="reference-container">
+            <p>{{reference.name}}</p>
+            <p>{{reference.company}}</p>
+            <p>{{reference.number}}</p>
+
+        </div>
+    </li>
+</ul>
