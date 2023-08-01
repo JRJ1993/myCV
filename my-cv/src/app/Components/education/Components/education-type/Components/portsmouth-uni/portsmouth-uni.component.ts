@@ -9,4 +9,9 @@ export class PortsmouthUniComponent {
   @Input() course: any;
   @Input() grade: any;
   @Input() modules: any;
+
+  constructor(){
+    console.log(this.grade);
+    
+  }
 }

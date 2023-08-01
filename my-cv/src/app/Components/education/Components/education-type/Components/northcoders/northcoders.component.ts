@@ -7,4 +7,9 @@ import { Component, Input } from '@angular/core';
 })
 export class NorthcodersComponent {
   @Input() course: any;
+
+  constructor(){
+    console.log(this.course);
+    
+  }
 }

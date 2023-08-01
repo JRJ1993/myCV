@@ -13,4 +13,9 @@ export class EducationTypeComponent {
   @Input() modules: any;
   @Input() subjects: any;
 
+  constructor(){
+    console.log(this.school)
+
+  }
+
 }

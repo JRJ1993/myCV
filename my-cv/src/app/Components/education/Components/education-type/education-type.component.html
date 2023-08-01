@@ -24,7 +24,9 @@
                 </app-portsmouth-uni>
             </div>
             <div style="display: {{school==='Plymstock Secondary School'?'':'none'}};">
-                <app-plymstock-school></app-plymstock-school>
+                <app-plymstock-school
+                    [subjects]="subjects"
+                ></app-plymstock-school>
             </div>
 
         </igx-expansion-panel-body>
